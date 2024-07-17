@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Overpass-UltraLight.ttf</string>
+		<string>Overpass-UltraLightItalic.ttf</string>
+		<string>Overpass-Thin.ttf</string>
+		<string>Overpass-ThinItalic.ttf</string>
+		<string>Overpass-Light.ttf</string>
+		<string>Overpass-LightItalic.ttf</string>
+		<string>Overpass-Regular.ttf</string>
+		<string>Overpass-Italic.ttf</string>
+		<string>Overpass-Medium.ttf</string>
+		<string>Overpass-MediumItalic.ttf</string>
+		<string>Overpass-Semibold.ttf</string>
+		<string>Overpass-SemiboldItalic.ttf</string>
+		<string>Overpass-Bold.ttf</string>
+		<string>Overpass-BoldItalic.ttf</string>
+		<string>Overpass-Heavy.ttf</string>
+		<string>Overpass-HeavyItalic.ttf</string>
+		<string>Overpass-Black.ttf</string>
+		<string>Overpass-BlackItalic.ttf</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E032F0C2C298DDA00E6F373 /* OverpassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E032F0B2C298DDA00E6F373 /* OverpassApp.swift */; };
+		8E032F0E2C298DDA00E6F373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E032F0D2C298DDA00E6F373 /* ContentView.swift */; };
+		8E032F102C298DDC00E6F373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F0F2C298DDC00E6F373 /* Assets.xcassets */; };
+		8E032F132C298DDC00E6F373 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F122C298DDC00E6F373 /* Preview Assets.xcassets */; };
+		8E032F512C29968B00E6F373 /* Overpass-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F3F2C29968B00E6F373 /* Overpass-MediumItalic.ttf */; };
+		8E032F522C29968B00E6F373 /* Overpass-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F402C29968B00E6F373 /* Overpass-Thin.ttf */; };
+		8E032F532C29968B00E6F373 /* Overpass-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F412C29968B00E6F373 /* Overpass-BoldItalic.ttf */; };
+		8E032F542C29968B00E6F373 /* Overpass-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F422C29968B00E6F373 /* Overpass-Italic.ttf */; };
+		8E032F552C29968B00E6F373 /* Overpass-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F432C29968B00E6F373 /* Overpass-Regular.ttf */; };
+		8E032F562C29968B00E6F373 /* Overpass-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F442C29968B00E6F373 /* Overpass-Black.ttf */; };
+		8E032F572C29968B00E6F373 /* Overpass-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F452C29968B00E6F373 /* Overpass-LightItalic.ttf */; };
+		8E032F582C29968B00E6F373 /* Overpass-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F462C29968B00E6F373 /* Overpass-SemiboldItalic.ttf */; };
+		8E032F592C29968B00E6F373 /* Overpass-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F472C29968B00E6F373 /* Overpass-Bold.ttf */; };
+		8E032F5A2C29968B00E6F373 /* Overpass-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F482C29968B00E6F373 /* Overpass-Medium.ttf */; };
+		8E032F5B2C29968B00E6F373 /* Overpass-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F492C29968B00E6F373 /* Overpass-UltraLight.ttf */; };
+		8E032F5C2C29968B00E6F373 /* Overpass-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F4A2C29968B00E6F373 /* Overpass-Heavy.ttf */; };
+		8E032F5D2C29968B00E6F373 /* Overpass-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F4B2C29968B00E6F373 /* Overpass-HeavyItalic.ttf */; };
+		8E032F5E2C29968B00E6F373 /* Overpass-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F4C2C29968B00E6F373 /* Overpass-Semibold.ttf */; };
+		8E032F5F2C29968B00E6F373 /* Overpass-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F4D2C29968B00E6F373 /* Overpass-UltraLightItalic.ttf */; };
+		8E032F602C29968B00E6F373 /* Overpass-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F4E2C29968B00E6F373 /* Overpass-ThinItalic.ttf */; };
+		8E032F612C29968B00E6F373 /* Overpass-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F4F2C29968B00E6F373 /* Overpass-Light.ttf */; };
+		8E032F622C29968B00E6F373 /* Overpass-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E032F502C29968B00E6F373 /* Overpass-BlackItalic.ttf */; };
+		8E41A6C52C29B3FF00310785 /* WeightComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41A6C42C29B3FF00310785 /* WeightComparisonView.swift */; };
+		8E41A6C72C29C31000310785 /* StandardLegibilityWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41A6C62C29C31000310785 /* StandardLegibilityWeightView.swift */; };
+		8E41A6C92C29C65700310785 /* UIFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41A6C82C29C65700310785 /* UIFontView.swift */; };
+		8E41A6CB2C29C81400310785 /* UIFontWithBoldTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41A6CA2C29C81400310785 /* UIFontWithBoldTextView.swift */; };
+		8E41A6CD2C29C9C100310785 /* CustomModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41A6CC2C29C9C100310785 /* CustomModifierView.swift */; };
+		8E41A6CF2C29D35200310785 /* FontEnvironmentKeyRetrievalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41A6CE2C29D35200310785 /* FontEnvironmentKeyRetrievalView.swift */; };
+		8E41A6D12C29D7A600310785 /* EnvironmentRetrievalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41A6D02C29D7A600310785 /* EnvironmentRetrievalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E032F082C298DDA00E6F373 /* Overpass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overpass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E032F0B2C298DDA00E6F373 /* OverpassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverpassApp.swift; sourceTree = "<group>"; };
+		8E032F0D2C298DDA00E6F373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E032F0F2C298DDC00E6F373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E032F122C298DDC00E6F373 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E032F3E2C298E0500E6F373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E032F3F2C29968B00E6F373 /* Overpass-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8E032F402C29968B00E6F373 /* Overpass-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Thin.ttf"; sourceTree = "<group>"; };
+		8E032F412C29968B00E6F373 /* Overpass-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8E032F422C29968B00E6F373 /* Overpass-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Italic.ttf"; sourceTree = "<group>"; };
+		8E032F432C29968B00E6F373 /* Overpass-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Regular.ttf"; sourceTree = "<group>"; };
+		8E032F442C29968B00E6F373 /* Overpass-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Black.ttf"; sourceTree = "<group>"; };
+		8E032F452C29968B00E6F373 /* Overpass-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-LightItalic.ttf"; sourceTree = "<group>"; };
+		8E032F462C29968B00E6F373 /* Overpass-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		8E032F472C29968B00E6F373 /* Overpass-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Bold.ttf"; sourceTree = "<group>"; };
+		8E032F482C29968B00E6F373 /* Overpass-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Medium.ttf"; sourceTree = "<group>"; };
+		8E032F492C29968B00E6F373 /* Overpass-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-UltraLight.ttf"; sourceTree = "<group>"; };
+		8E032F4A2C29968B00E6F373 /* Overpass-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Heavy.ttf"; sourceTree = "<group>"; };
+		8E032F4B2C29968B00E6F373 /* Overpass-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		8E032F4C2C29968B00E6F373 /* Overpass-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Semibold.ttf"; sourceTree = "<group>"; };
+		8E032F4D2C29968B00E6F373 /* Overpass-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		8E032F4E2C29968B00E6F373 /* Overpass-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-ThinItalic.ttf"; sourceTree = "<group>"; };
+		8E032F4F2C29968B00E6F373 /* Overpass-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-Light.ttf"; sourceTree = "<group>"; };
+		8E032F502C29968B00E6F373 /* Overpass-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Overpass-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8E41A6C42C29B3FF00310785 /* WeightComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightComparisonView.swift; sourceTree = "<group>"; };
+		8E41A6C62C29C31000310785 /* StandardLegibilityWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardLegibilityWeightView.swift; sourceTree = "<group>"; };
+		8E41A6C82C29C65700310785 /* UIFontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontView.swift; sourceTree = "<group>"; };
+		8E41A6CA2C29C81400310785 /* UIFontWithBoldTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontWithBoldTextView.swift; sourceTree = "<group>"; };
+		8E41A6CC2C29C9C100310785 /* CustomModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView.swift; sourceTree = "<group>"; };
+		8E41A6CE2C29D35200310785 /* FontEnvironmentKeyRetrievalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontEnvironmentKeyRetrievalView.swift; sourceTree = "<group>"; };
+		8E41A6D02C29D7A600310785 /* EnvironmentRetrievalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentRetrievalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E032F052C298DDA00E6F373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E032EFF2C298DDA00E6F373 = {
+			isa = PBXGroup;
+			children = (
+				8E032F0A2C298DDA00E6F373 /* Overpass */,
+				8E032F092C298DDA00E6F373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E032F092C298DDA00E6F373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E032F082C298DDA00E6F373 /* Overpass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E032F0A2C298DDA00E6F373 /* Overpass */ = {
+			isa = PBXGroup;
+			children = (
+				8E032F3E2C298E0500E6F373 /* Info.plist */,
+				8E032F192C298DDF00E6F373 /* Fonts */,
+				8E41A6C32C29B3EE00310785 /* Examples */,
+				8E032F0B2C298DDA00E6F373 /* OverpassApp.swift */,
+				8E032F0D2C298DDA00E6F373 /* ContentView.swift */,
+				8E032F0F2C298DDC00E6F373 /* Assets.xcassets */,
+				8E032F112C298DDC00E6F373 /* Preview Content */,
+			);
+			path = Overpass;
+			sourceTree = "<group>";
+		};
+		8E032F112C298DDC00E6F373 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E032F122C298DDC00E6F373 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E032F192C298DDF00E6F373 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E032F442C29968B00E6F373 /* Overpass-Black.ttf */,
+				8E032F502C29968B00E6F373 /* Overpass-BlackItalic.ttf */,
+				8E032F472C29968B00E6F373 /* Overpass-Bold.ttf */,
+				8E032F412C29968B00E6F373 /* Overpass-BoldItalic.ttf */,
+				8E032F4A2C29968B00E6F373 /* Overpass-Heavy.ttf */,
+				8E032F4B2C29968B00E6F373 /* Overpass-HeavyItalic.ttf */,
+				8E032F422C29968B00E6F373 /* Overpass-Italic.ttf */,
+				8E032F4F2C29968B00E6F373 /* Overpass-Light.ttf */,
+				8E032F452C29968B00E6F373 /* Overpass-LightItalic.ttf */,
+				8E032F482C29968B00E6F373 /* Overpass-Medium.ttf */,
+				8E032F3F2C29968B00E6F373 /* Overpass-MediumItalic.ttf */,
+				8E032F432C29968B00E6F373 /* Overpass-Regular.ttf */,
+				8E032F4C2C29968B00E6F373 /* Overpass-Semibold.ttf */,
+				8E032F462C29968B00E6F373 /* Overpass-SemiboldItalic.ttf */,
+				8E032F402C29968B00E6F373 /* Overpass-Thin.ttf */,
+				8E032F4E2C29968B00E6F373 /* Overpass-ThinItalic.ttf */,
+				8E032F492C29968B00E6F373 /* Overpass-UltraLight.ttf */,
+				8E032F4D2C29968B00E6F373 /* Overpass-UltraLightItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8E41A6C32C29B3EE00310785 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				8E41A6C42C29B3FF00310785 /* WeightComparisonView.swift */,
+				8E41A6C62C29C31000310785 /* StandardLegibilityWeightView.swift */,
+				8E41A6C82C29C65700310785 /* UIFontView.swift */,
+				8E41A6CA2C29C81400310785 /* UIFontWithBoldTextView.swift */,
+				8E41A6CC2C29C9C100310785 /* CustomModifierView.swift */,
+				8E41A6CE2C29D35200310785 /* FontEnvironmentKeyRetrievalView.swift */,
+				8E41A6D02C29D7A600310785 /* EnvironmentRetrievalView.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E032F072C298DDA00E6F373 /* Overpass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E032F162C298DDC00E6F373 /* Build configuration list for PBXNativeTarget "Overpass" */;
+			buildPhases = (
+				8E032F042C298DDA00E6F373 /* Sources */,
+				8E032F052C298DDA00E6F373 /* Frameworks */,
+				8E032F062C298DDA00E6F373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Overpass;
+			productName = Overpass;
+			productReference = 8E032F082C298DDA00E6F373 /* Overpass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E032F002C298DDA00E6F373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8E032F072C298DDA00E6F373 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 8E032F032C298DDA00E6F373 /* Build configuration list for PBXProject "Overpass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E032EFF2C298DDA00E6F373;
+			productRefGroup = 8E032F092C298DDA00E6F373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E032F072C298DDA00E6F373 /* Overpass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E032F062C298DDA00E6F373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E032F5E2C29968B00E6F373 /* Overpass-Semibold.ttf in Resources */,
+				8E032F5A2C29968B00E6F373 /* Overpass-Medium.ttf in Resources */,
+				8E032F552C29968B00E6F373 /* Overpass-Regular.ttf in Resources */,
+				8E032F522C29968B00E6F373 /* Overpass-Thin.ttf in Resources */,
+				8E032F572C29968B00E6F373 /* Overpass-LightItalic.ttf in Resources */,
+				8E032F512C29968B00E6F373 /* Overpass-MediumItalic.ttf in Resources */,
+				8E032F602C29968B00E6F373 /* Overpass-ThinItalic.ttf in Resources */,
+				8E032F562C29968B00E6F373 /* Overpass-Black.ttf in Resources */,
+				8E032F5B2C29968B00E6F373 /* Overpass-UltraLight.ttf in Resources */,
+				8E032F5C2C29968B00E6F373 /* Overpass-Heavy.ttf in Resources */,
+				8E032F532C29968B00E6F373 /* Overpass-BoldItalic.ttf in Resources */,
+				8E032F5F2C29968B00E6F373 /* Overpass-UltraLightItalic.ttf in Resources */,
+				8E032F582C29968B00E6F373 /* Overpass-SemiboldItalic.ttf in Resources */,
+				8E032F542C29968B00E6F373 /* Overpass-Italic.ttf in Resources */,
+				8E032F132C298DDC00E6F373 /* Preview Assets.xcassets in Resources */,
+				8E032F5D2C29968B00E6F373 /* Overpass-HeavyItalic.ttf in Resources */,
+				8E032F592C29968B00E6F373 /* Overpass-Bold.ttf in Resources */,
+				8E032F102C298DDC00E6F373 /* Assets.xcassets in Resources */,
+				8E032F612C29968B00E6F373 /* Overpass-Light.ttf in Resources */,
+				8E032F622C29968B00E6F373 /* Overpass-BlackItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E032F042C298DDA00E6F373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E41A6D12C29D7A600310785 /* EnvironmentRetrievalView.swift in Sources */,
+				8E41A6CF2C29D35200310785 /* FontEnvironmentKeyRetrievalView.swift in Sources */,
+				8E032F0E2C298DDA00E6F373 /* ContentView.swift in Sources */,
+				8E41A6C92C29C65700310785 /* UIFontView.swift in Sources */,
+				8E41A6CD2C29C9C100310785 /* CustomModifierView.swift in Sources */,
+				8E41A6C52C29B3FF00310785 /* WeightComparisonView.swift in Sources */,
+				8E41A6CB2C29C81400310785 /* UIFontWithBoldTextView.swift in Sources */,
+				8E032F0C2C298DDA00E6F373 /* OverpassApp.swift in Sources */,
+				8E41A6C72C29C31000310785 /* StandardLegibilityWeightView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E032F142C298DDC00E6F373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E032F152C298DDC00E6F373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E032F172C298DDC00E6F373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Overpass/Preview Content\"";
+				DEVELOPMENT_TEAM = X547U3FCFD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Overpass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kroger.Overpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E032F182C298DDC00E6F373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Overpass/Preview Content\"";
+				DEVELOPMENT_TEAM = X547U3FCFD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Overpass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kroger.Overpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E032F032C298DDA00E6F373 /* Build configuration list for PBXProject "Overpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E032F142C298DDC00E6F373 /* Debug */,
+				8E032F152C298DDC00E6F373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E032F162C298DDC00E6F373 /* Build configuration list for PBXNativeTarget "Overpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E032F172C298DDC00E6F373 /* Debug */,
+				8E032F182C298DDC00E6F373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E032F002C298DDA00E6F373 /* Project object */;
+}
